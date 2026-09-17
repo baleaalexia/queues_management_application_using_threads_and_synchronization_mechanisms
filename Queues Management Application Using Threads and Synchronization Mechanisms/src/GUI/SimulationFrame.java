@@ -7,13 +7,13 @@ import javax.swing.*;
 import java.awt.*;
 
 public class SimulationFrame extends JFrame {
-    private JTextField clientsField = new JTextField("50");
-    private JTextField queuesField = new JTextField("5");
-    private JTextField simTimeField = new JTextField("60");
-    private JTextField minArrivalField = new JTextField("2");
-    private JTextField maxArrivalField = new JTextField("30");
-    private JTextField minServiceField = new JTextField("2");
-    private JTextField maxServiceField = new JTextField("4");
+    private JTextField clientsField = new JTextField("0");
+    private JTextField queuesField = new JTextField("0");
+    private JTextField simTimeField = new JTextField("0");
+    private JTextField minArrivalField = new JTextField("0");
+    private JTextField maxArrivalField = new JTextField("0");
+    private JTextField minServiceField = new JTextField("0");
+    private JTextField maxServiceField = new JTextField("0");
     private JComboBox<SelectionPolicy> policyBox = new JComboBox<>(SelectionPolicy.values());
     private JTextArea logArea = new JTextArea();
 
